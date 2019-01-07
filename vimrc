@@ -14,6 +14,7 @@ Plugin 'vim-syntastic/syntastic'
 Plugin 'jnurmine/Zenburn'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'powerline/powerline'
+Plugin 'vim-scripts/vim-auto-save'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -89,3 +90,7 @@ let g:NERDTrimTrailingWhitespace = 1
 
 " Enable NERDCommenterToggle to check all selected lines is commented or not 
 let g:NERDToggleCheckAllLines = 1
+
+" auto save
+let g:auto_save = 1
+let g:auto_save_in_insert_mode = 0 
